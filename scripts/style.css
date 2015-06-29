@@ -1,0 +1,59 @@
+/**
+* CSS
+*/
+
+/*force empty scrollbar on short pages so there's no jump to pages with scrollbars*/
+
+html {
+	height : 100%;
+	overflow-y: scroll;
+} 
+a { -moz-outline: none 0; }
+* {
+	margin: 0;
+	padding: 0;
+}
+body { color: #4f492e; font-size: 15px; font-family: georgia, time, serif; line-height: 20px; background-color: white; text-align: center; letter-spacing: 1px; }
+table { }
+td { font-size: 15px; line-height: 19px; padding-right: 20px; padding-bottom: 20px; }
+#top_space { margin-bottom: 115px;}
+#top_space2 { margin-bottom: 80px;}
+.small {font-size: 9px;}
+#wrapper {
+	width: 920px;
+	margin: 0 auto;
+	text-align: left;
+}
+a:link { color: #6a664b; font-size: 15px; text-decoration: none; }
+a:active { color: #6a664b; font-size: 15px; text-decoration: none; }
+a:visited { color: #6c560b; font-size: 15px; text-decoration: none;;  }
+a:hover { color: #382c13; font-size: 15px; }
+a img { border-top-style: none; border-right-style: none; border-left-style: none; }
+#menu { text-align: center; width: 850px; overflow: auto; position: relative; height: auto; margin-right: auto; margin-left: auto; display: block; ma }
+#menu ul li{ color: #5b593f; font-size: 14px; font-weight: normal; line-height: 16px; letter-spacing: 2px; margin-right: 20px; list-style: none; display: inline; }
+#menu ul li.section-title { color: #424141; font-size: 14px; font-weight: bold; }
+#content { height: 100%; width: 730px; margin-right: auto; margin-left: auto; }
+.container { position: relative; padding: 20px 5px 5px; }
+#content p { color: #4f492e; font-size: 15px; line-height: 20px; width: 725px; }
+#footer{ color: #6a664b; font-size: 13px; text-align: center; width: auto; overflow: auto; position: relative; height: auto; margin: 20px auto 18px; display: block; ma }
+p { color: #4f492e; font-size: 15px; line-height: 20px; margin-bottom: 12px; }
+h1 { color: #775f35; font-size: 22px; font-weight: lighter; font-style: normal; margin-top: 6px; margin-bottom: 18px; }
+h2 { color: #775f35; font-size: 18px; font-weight: lighter; font-style: normal; margin-top: 6px; margin-bottom: 22px; }
+h3 { color: #775f35; font-size: 18px; font-weight: lighter; font-style: normal; margin-top: 12px; margin-bottom: 10px; }
+h4 { color: #999; font-size: 24px; font-weight: lighter; letter-spacing: 3px; margin-top: 152px; }
+#img-container	{ margin: 0; padding: 0; }
+#img-container p	{ width: 400px; margin: 0; padding: 0 0 12px 0; }
+#once { clear: left; }
+.brown { color: #825510; font-style: italic; }
+.line { width: 850px; height: auto; margin-top: 15px; margin-right: auto; margin-left: auto; border-bottom: 1px dotted #a0824c; }
+.line2 { width: 850px; height: auto; margin-right: auto; margin-left: auto; border-bottom: 1px dotted #a0824c; }
+.active a { color: #373228; font-style: italic; }
+.space { color: #664f27; font-size: 17px; font-style: italic; line-height: 1.2em; letter-spacing: 2px; margin-bottom: 10px; margin-top: 0; }
+.sub { font-size: 13px; }
+.bigger { font-size: 16px; line-height: 20px; margin-bottom: 10px;}
+.clear-both { clear: both; }
+img.floatLeft { float: left; margin-right: 20px; margin-bottom: 20px; }
+img.floatRight { 
+    float: right; 
+    margin: 10px; 
+}
